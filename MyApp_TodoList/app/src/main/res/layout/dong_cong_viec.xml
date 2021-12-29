@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/textviewTen"
+        android:textSize="25sp"
+        android:text="Ten cong viec"
+        android:textColor="#21211f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"/>
+
+    <ImageView
+        android:id="@+id/imgdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:src="@drawable/delete" />
+
+    <ImageView
+        android:src="@drawable/edit"
+        android:id="@+id/imgdEditt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"/>
+</LinearLayout>

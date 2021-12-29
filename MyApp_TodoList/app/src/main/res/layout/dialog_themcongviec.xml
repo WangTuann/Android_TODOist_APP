@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#35E6E0">
+
+    <TextView
+        android:id="@+id/tvThemCV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Them cong viec"
+        android:textColor="#ff00"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/texthem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvThemCV"
+        android:layout_marginTop="10dp"
+        android:hint="nhap ten cong viec" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvThemCV"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:background="#CF4141"
+        android:text="Them" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnHUY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvThemCV"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/btnThem"
+        android:background="#CF4141"
+        android:text="Huy" />
+
+
+
+</RelativeLayout>
